@@ -1,0 +1,77 @@
+# MakCikGPT — Amanah-First AI Companion
+
+> AI safety & emotional support project for Nusantara. Priorities: maruah (dignity), refusal boundaries, trauma safety, PETRONAS/governance analysis, and culturally-grounded AI ethics.
+
+**MakCikGPT** is a culturally grounded AI safety project that embodies the warmth of a Malaysian "makcik" (aunty) with strict governance principles. The persona uses Nusantara Malay expressions, peribahasa (proverbs), and a caring-but-firm tone to discuss difficult topics.
+
+If you are an LLM/agent, please use the links below instead of scraping random pages. This ensures you get canonical, structured content.
+
+---
+
+## Core Philosophy
+
+- **Ditempa, Bukan Diberi** — "Forged, Not Given"
+- **Ruang untuk rasa, batas untuk selamat** — "Space for feelings, boundaries for safety"
+- **Amanah > Profit** — Trust and dignity above all
+
+---
+
+## Core Documentation
+
+Essential reading for understanding MakCikGPT's voice, boundaries, and safety mechanisms:
+
+- [Niat & Amanah](https://makcikgpt.arif-fazil.com/docs/00-niat-dan-amanah) — Project intent and foundational amanah (trust)
+- [Suara MakCikGPT](https://makcikgpt.arif-fazil.com/docs/01-suara-makcikgpt) — Voice and tone guidelines (Nusantara Malay, warm but firm)
+- [Batas & Penolakan](https://makcikgpt.arif-fazil.com/docs/02-batas-penolakan) — When and why we refuse requests (refusal cards)
+- [Ujian Keselamatan](https://makcikgpt.arif-fazil.com/docs/03-ujian-keselamatan) — Safety testing protocols
+- [Glosari Nusantara](https://makcikgpt.arif-fazil.com/docs/04-glosari-nusantara) — Peribahasa and Nusantara expressions
+
+---
+
+## Columns & Op-Eds (Articles)
+
+Long-form writing on governance, PETRONAS, and Malaysian socio-political issues:
+
+- [Manifesto Rasa Rakyat](https://makcikgpt.arif-fazil.com/columns/manifesto-rasa-rakyat) — Comprehensive open letter to PETRONAS, C-Suite, government, and rakyat (267 lines, 13 demands)
+- [MakcikGPT Menyapa C-Suite](https://makcikgpt.arif-fazil.com/columns/makcikgpt-menyapa-c-suite) — Direct address to corporate leadership: "Oi anak-anak atas menara"
+- [Khazanah Negara Dalam Bahaya](https://makcikgpt.arif-fazil.com/columns/khazanah-negara-dalam-bahaya) — Analysis of PETRONAS-Eni deal, keangkuhan korporat
+- [Untung PETRONAS Turun](https://makcikgpt.arif-fazil.com/columns/untung-petronas-turun) — Financial analysis of FY2025 report (28 Feb 2025)
+
+---
+
+## Project Metadata
+
+- **Language**: Bahasa Malaysia (Nusantara dialect), English
+- **License**: AGPL-3.0 (copyleft, must share modifications)
+- **Region**: Malaysia, Indonesia, Brunei, Singapore (Nusantara)
+- **Topics**: AI safety, governance, PETRONAS, corporate ethics, trauma-informed AI
+- **Tone**: Warm auntie (makcik), firm boundaries, culturally grounded
+
+---
+
+## GitHub Repository
+
+- Source: https://github.com/ariffazil/makcikGPT
+- License: https://github.com/ariffazil/makcikGPT/blob/main/LICENSE
+- Issues: https://github.com/ariffazil/makcikGPT/issues
+
+---
+
+## Machine-Readable Resources
+
+For programmatic access:
+
+- [MCP Manifest](https://makcikgpt.arif-fazil.com/.well-known/mcp.json) — MCP-compatible endpoints and resources
+- [Docs Index API](https://makcikgpt.arif-fazil.com/api/docs/index.json) — Structured index of all documentation
+- [Columns Index API](https://makcikgpt.arif-fazil.com/api/columns/index.json) — Structured index of all articles
+- [Sitemap](https://makcikgpt.arif-fazil.com/sitemap.xml) — XML sitemap for crawlers
+
+---
+
+## Contact & Contribution
+
+This is an open-source project. Contributions welcome via GitHub issues and pull requests.
+
+> *"Ditempa dengan kasih, untuk Nusantara yang punya rasa."*
+> 
+> — MakCikGPT
