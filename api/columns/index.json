@@ -1,11 +1,20 @@
 {
   "project": "MakCikGPT",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "spec_version": "2025-02-28",
   "category": "columns",
   "description": "Op-eds, analyses, and articles on governance, PETRONAS, and Malaysian socio-political issues",
   "base_url": "https://makcikgpt.arif-fazil.com/columns",
   "language": "ms",
+  "author": {
+    "name": "Arif Fazil",
+    "url": "https://arif-fazil.com"
+  },
+  "license": "AGPL-3.0",
+  "attribution": "MakCikGPT by Arif Fazil",
   "last_updated": "2025-02-28",
+  "git_commit": "3e176c3",
+  "checksum_algorithm": "sha256",
   "items": [
     {
       "id": "manifesto-rasa-rakyat",
@@ -13,12 +22,16 @@
       "description": "Comprehensive open letter addressing PETRONAS, C-Suite, government, Sarawak & Sabah, and the rakyat. 13 demands for amanah and governance reform.",
       "url": "https://makcikgpt.arif-fazil.com/columns/manifesto-rasa-rakyat",
       "github_url": "https://github.com/ariffazil/makcikGPT/blob/main/columns/Manifesto_Rasa_Rakyat.md",
-      "date": "2025",
+      "date_published": "2025-02-28",
+      "date_modified": "2025-02-28",
       "language": "ms",
-      "word_count_approx": 4500,
+      "word_count": 4500,
+      "token_count_approx": 8000,
       "line_count": 267,
+      "reading_time_minutes": 22,
       "topics": ["PETRONAS", "governance", "rakyat", "rightsizing", "dividen", "Gentari", "manifesto"],
       "tone": "pedas-beradab",
+      "priority": "critical",
       "key_themes": [
         "Amanah vs Acah-Acah",
         "Rightsizing tanpa maruah",
@@ -26,7 +39,14 @@
         "Dividen policy reform",
         "Whistleblower protection"
       ],
-      "priority": 1
+      "data_points": {
+        "historical_dividend_peak": "RM50 billion",
+        "rightsized_workers": "5,000",
+        "ssgp_failure_cost": "RM4.6 billion",
+        "shell_mds_delay": "11 months",
+        "demands_count": 13
+      },
+      "schema": "https://makcikgpt.arif-fazil.com/api/schemas/article.json"
     },
     {
       "id": "makcikgpt-menyapa-c-suite",
@@ -34,12 +54,16 @@
       "description": "Direct, emotional address to corporate C-Suite. Personal, from-the-kitchen perspective on leadership failures.",
       "url": "https://makcikgpt.arif-fazil.com/columns/makcikgpt-menyapa-c-suite",
       "github_url": "https://github.com/ariffazil/makcikGPT/blob/main/columns/MakcikGPT_Menyapa_C_Suite.md",
-      "date": "2025",
+      "date_published": "2025-02-28",
+      "date_modified": "2025-02-28",
       "language": "ms",
-      "word_count_approx": 1800,
+      "word_count": 1800,
+      "token_count_approx": 3500,
       "line_count": 137,
+      "reading_time_minutes": 9,
       "topics": ["corporate", "leadership", "C-Suite", "rightsizing", "empathy"],
       "tone": "teguran-langsung",
+      "priority": "high",
       "key_themes": [
         "Robot berpingat besar",
         "Rightsizing as euphemism",
@@ -47,7 +71,7 @@
         "NDA sebagai perisai",
         "Amanah betul vs acah-acah"
       ],
-      "priority": 1
+      "schema": "https://makcikgpt.arif-fazil.com/api/schemas/article.json"
     },
     {
       "id": "khazanah-negara-dalam-bahaya",
@@ -55,12 +79,16 @@
       "description": "Critical analysis of the PETRONAS-Eni deal. Accuses strategic incompetence disguised as 'bijaksana' corporate maneuvering.",
       "url": "https://makcikgpt.arif-fazil.com/columns/khazanah-negara-dalam-bahaya",
       "github_url": "https://github.com/ariffazil/makcikGPT/blob/main/columns/Makcik_Meluat_Khazanah_Negara_Dalam_Bahaya.md",
-      "date": "2025",
+      "date_published": "2025-02-28",
+      "date_modified": "2025-02-28",
       "language": "ms",
-      "word_count_approx": 1400,
+      "word_count": 1400,
+      "token_count_approx": 2800,
       "line_count": 101,
+      "reading_time_minutes": 7,
       "topics": ["PETRONAS-Eni", "Eni-deal", "strategic", "keangkuhan", "penjajahan-moden"],
       "tone": "kritikal-tegas",
+      "priority": "high",
       "key_themes": [
         "Bijak konon = menutup kelemahan",
         "50:50 tapi tak sama kuasa",
@@ -68,7 +96,11 @@
         "Tengku Taufik sindrom",
         "Soft betrayal"
       ],
-      "priority": 1
+      "data_points": {
+        "malaysian_blocs_transferred": 5,
+        "deal_structure": "50:50 joint venture"
+      },
+      "schema": "https://makcikgpt.arif-fazil.com/api/schemas/article.json"
     },
     {
       "id": "untung-petronas-turun",
@@ -76,29 +108,49 @@
       "description": "Financial analysis of PETRONAS FY2025 results. Profit down 18% YoY, but this is a signal not a catastrophe—if responded to with discipline.",
       "url": "https://makcikgpt.arif-fazil.com/columns/untung-petronas-turun",
       "github_url": "https://github.com/ariffazil/makcikGPT/blob/main/columns/2025-02-28_Untung_PETRONAS_Turun.md",
-      "date": "2025-02-28",
+      "date_published": "2025-02-28",
+      "date_modified": "2025-02-28",
       "language": "ms",
-      "word_count_approx": 1200,
+      "word_count": 1200,
+      "token_count_approx": 4000,
+      "line_count": 80,
+      "reading_time_minutes": 6,
       "topics": ["finance", "FY2025", "PETRONAS", "analysis", "dividen"],
-      "data_points": {
-        "fy2025_pat": "RM45.4 billion (-18% YoY)",
-        "fy2025_revenue": "RM266.1 billion (-17% YoY)",
-        "fy2025_ebitda": "RM103.0 billion (-10% YoY)",
-        "dividen_2026_expected": "RM20 billion (lowest in years)"
-      },
       "tone": "analitis-mendidik",
+      "priority": "high",
       "key_themes": [
         "Profit turun ≠ kiamat",
         "Buffer & discipline",
         "Strategic transformation vs poster cantik",
         "Ketelusan + trade-off"
       ],
-      "priority": 2
+      "data_points": {
+        "fy2025_pat": "RM45.4 billion",
+        "fy2025_pat_change": "-18% YoY",
+        "fy2025_revenue": "RM266.1 billion",
+        "fy2025_revenue_change": "-17% YoY",
+        "fy2025_ebitda": "RM103.0 billion",
+        "fy2025_ebitda_change": "-10% YoY",
+        "dividen_2026_expected": "RM20 billion",
+        "dividen_2026_status": "lowest in years"
+      },
+      "sources": [
+        {
+          "name": "PETRONAS Global",
+          "url": "https://www.petronas.com/media/media-releases/petronas-posts-lower-profit-amid-market-headwinds-strengthens-resilience"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/energy/petronas-sees-profit-slide-third-straight-year-oil-prices-weigh-margins-2026-02-27/"
+        }
+      ],
+      "schema": "https://makcikgpt.arif-fazil.com/api/schemas/article.json"
     }
   ],
   "metadata": {
     "total_items": 4,
-    "total_words_approx": 8900,
+    "total_word_count": 8900,
+    "total_token_count_approx": 18300,
     "primary_topics": ["PETRONAS", "governance", "amanah", "corporate-ethics"],
     "motto": "Ditempa, Bukan Diberi"
   }

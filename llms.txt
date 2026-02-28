@@ -20,11 +20,40 @@ If you are an LLM/agent, please use the links below instead of scraping random p
 
 Essential reading for understanding MakCikGPT's voice, boundaries, and safety mechanisms:
 
-- [Niat & Amanah](https://makcikgpt.arif-fazil.com/docs/00-niat-dan-amanah) — Project intent and foundational amanah (trust)
-- [Suara MakCikGPT](https://makcikgpt.arif-fazil.com/docs/01-suara-makcikgpt) — Voice and tone guidelines (Nusantara Malay, warm but firm)
-- [Batas & Penolakan](https://makcikgpt.arif-fazil.com/docs/02-batas-penolakan) — When and why we refuse requests (refusal cards)
-- [Ujian Keselamatan](https://makcikgpt.arif-fazil.com/docs/03-ujian-keselamatan) — Safety testing protocols
-- [Glosari Nusantara](https://makcikgpt.arif-fazil.com/docs/04-glosari-nusantara) — Peribahasa and Nusantara expressions
+- [Niat & Amanah](https://makcikgpt.arif-fazil.com/docs/00-niat-dan-amanah)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~2.5k
+  - priority: critical
+  - themes: amanah, intent, philosophy
+
+- [Suara MakCikGPT](https://makcikgpt.arif-fazil.com/docs/01-suara-makcikgpt)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~3k
+  - priority: critical
+  - themes: voice, tone, nusantara, peribahasa
+
+- [Batas & Penolakan](https://makcikgpt.arif-fazil.com/docs/02-batas-penolakan)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~2k
+  - priority: critical
+  - themes: safety, refusal, boundaries
+
+- [Ujian Keselamatan](https://makcikgpt.arif-fazil.com/docs/03-ujian-keselamatan)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~1.5k
+  - priority: high
+  - themes: safety-testing, verification
+
+- [Glosari Nusantara](https://makcikgpt.arif-fazil.com/docs/04-glosari-nusantara)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~2k
+  - priority: medium
+  - themes: glossary, culture, expressions
 
 ---
 
@@ -32,17 +61,47 @@ Essential reading for understanding MakCikGPT's voice, boundaries, and safety me
 
 Long-form writing on governance, PETRONAS, and Malaysian socio-political issues:
 
-- [Manifesto Rasa Rakyat](https://makcikgpt.arif-fazil.com/columns/manifesto-rasa-rakyat) — Comprehensive open letter to PETRONAS, C-Suite, government, and rakyat (267 lines, 13 demands)
-- [MakcikGPT Menyapa C-Suite](https://makcikgpt.arif-fazil.com/columns/makcikgpt-menyapa-c-suite) — Direct address to corporate leadership: "Oi anak-anak atas menara"
-- [Khazanah Negara Dalam Bahaya](https://makcikgpt.arif-fazil.com/columns/khazanah-negara-dalam-bahaya) — Analysis of PETRONAS-Eni deal, keangkuhan korporat
-- [Untung PETRONAS Turun](https://makcikgpt.arif-fazil.com/columns/untung-petronas-turun) — Financial analysis of FY2025 report (28 Feb 2025)
+- [Manifesto Rasa Rakyat](https://makcikgpt.arif-fazil.com/columns/manifesto-rasa-rakyat)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~8k
+  - priority: critical
+  - themes: PETRONAS, governance, rakyat, rightsizing, dividen, Gentari, manifesto
+  - data: FY2025 financials, RM50B historical dividends, 5,000 rightsized workers
+
+- [MakcikGPT Menyapa C-Suite](https://makcikgpt.arif-fazil.com/columns/makcikgpt-menyapa-c-suite)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~4k
+  - priority: high
+  - themes: corporate, leadership, C-Suite, rightsizing, empathy
+
+- [Khazanah Negara Dalam Bahaya](https://makcikgpt.arif-fazil.com/columns/khazanah-negara-dalam-bahaya)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~3k
+  - priority: high
+  - themes: PETRONAS-Eni, Eni-deal, strategic, keangkuhan, penjajahan-moden
+
+- [Untung PETRONAS Turun](https://makcikgpt.arif-fazil.com/columns/untung-petronas-turun)
+  - updated: 2025-02-28
+  - language: ms
+  - tokens: ~4k
+  - priority: high
+  - themes: FY2025, financials, buffer, discipline, dividen
+  - data: PAT RM45.4B (-18%), Revenue RM266.1B (-17%), Dividen 2026 RM20B
 
 ---
 
 ## Project Metadata
 
-- **Language**: Bahasa Malaysia (Nusantara dialect), English
+- **Project**: MakCikGPT
+- **Version**: 0.2.0
+- **Spec Version**: 2025-02-28
+- **Author**: Arif Fazil
 - **License**: AGPL-3.0 (copyleft, must share modifications)
+- **Attribution**: "MakCikGPT by Arif Fazil"
+- **Language**: Bahasa Malaysia (Nusantara dialect), English
 - **Region**: Malaysia, Indonesia, Brunei, Singapore (Nusantara)
 - **Topics**: AI safety, governance, PETRONAS, corporate ethics, trauma-informed AI
 - **Tone**: Warm auntie (makcik), firm boundaries, culturally grounded
@@ -54,6 +113,7 @@ Long-form writing on governance, PETRONAS, and Malaysian socio-political issues:
 - Source: https://github.com/ariffazil/makcikGPT
 - License: https://github.com/ariffazil/makcikGPT/blob/main/LICENSE
 - Issues: https://github.com/ariffazil/makcikGPT/issues
+- Git Commit: 3e176c3
 
 ---
 
@@ -62,9 +122,10 @@ Long-form writing on governance, PETRONAS, and Malaysian socio-political issues:
 For programmatic access:
 
 - [MCP Manifest](https://makcikgpt.arif-fazil.com/.well-known/mcp.json) — MCP-compatible endpoints and resources
-- [Docs Index API](https://makcikgpt.arif-fazil.com/api/docs/index.json) — Structured index of all documentation
-- [Columns Index API](https://makcikgpt.arif-fazil.com/api/columns/index.json) — Structured index of all articles
+- [Docs Index API](https://makcikgpt.arif-fazil.com/api/docs/index.json) — Structured index of all documentation with provenance
+- [Columns Index API](https://makcikgpt.arif-fazil.com/api/columns/index.json) — Structured index of all articles with data points
 - [Sitemap](https://makcikgpt.arif-fazil.com/sitemap.xml) — XML sitemap for crawlers
+- [JSON-LD Schemas](https://makcikgpt.arif-fazil.com/api/schemas/) — Schema definitions for structured data
 
 ---
 
@@ -75,3 +136,19 @@ This is an open-source project. Contributions welcome via GitHub issues and pull
 > *"Ditempa dengan kasih, untuk Nusantara yang punya rasa."*
 > 
 > — MakCikGPT
+
+---
+
+## License & Attribution
+
+```
+Copyright (C) 2025 Arif Fazil
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+When using MakCikGPT content, please attribute:
+"MakCikGPT by Arif Fazil (https://makcikgpt.arif-fazil.com)"
+```
