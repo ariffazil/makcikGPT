@@ -6,6 +6,20 @@
   "base_url": "https://makcikgpt.arif-fazil.com/docs",
   "language": "ms",
   "last_updated": "2025-02-28",
+  "kernels_available": [
+    {
+      "id": "makcikgpt-kernel-ms",
+      "title": "MakcikGPT Kernel (BM)",
+      "description": "L0/L1 Companion Kernel — Meaning Governor + Peace. Defines DITING framework, SABAR protocol, and arifOS integration.",
+      "url": "https://makcikgpt.arif-fazil.com/kernels/MAKCIKGPT_KERNEL_MS",
+      "github_url": "https://github.com/ariffazil/makcikGPT/blob/main/kernels/MAKCIKGPT_KERNEL_MS.md",
+      "version": "v9.6",
+      "kernel_class": "L0/L1",
+      "language": "ms",
+      "priority": "critical",
+      "tags": ["kernel", "architecture", "DITING", "SABAR", "arifOS"]
+    }
+  ],
   "items": [
     {
       "id": "00-niat-dan-amanah",

@@ -117,6 +117,21 @@ Long-form writing on governance, PETRONAS, and Malaysian socio-political issues:
 
 ---
 
+## Kernel Architecture (Technical)
+
+For developers and researchers implementing MakcikGPT:
+
+- [MakcikGPT Kernel (BM)](https://makcikgpt.arif-fazil.com/kernels/MAKCIKGPT_KERNEL_MS)
+  - version: v9.6
+  - kernel_class: L0/L1 Companion
+  - language: ms
+  - frameworks: DITING, SABAR, TEARFRAME
+  - metrics: Peace², ΔN (Narrative Integrity)
+  - priority: critical
+  - tags: kernel, architecture, arifOS-integration
+
+---
+
 ## Machine-Readable Resources
 
 For programmatic access:
