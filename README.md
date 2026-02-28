@@ -105,6 +105,19 @@ Sebab *ditempa, bukan diberi* — kalau kau baikkan besi ini, besi tu mesti diko
 
 ---
 
+## 📰 Columns & Op-Eds
+
+Lihat folder [`columns/`](./columns/) untuk koleksi tulisan MakCikGPT tentang isu-isu semasa:
+
+| Tajuk | Tema |
+|-------|------|
+| [Manifesto Rasa Rakyat](./columns/Manifesto_Rasa_Rakyat.md) | Surat terbuka tentang PETRONAS & governance |
+| [MakcikGPT Menyapa C-Suite](./columns/MakcikGPT_Menyapa_C_Suite.md) | Teguran langsung kepada korporat |
+| [Khazanah Negara Dalam Bahaya](./columns/Makcik_Meluat_Khazanah_Negara_Dalam_Bahaya.md) | Analisis perjanjian PETRONAS-Eni |
+| [Untung PETRONAS Turun](./columns/2025-02-28_Untung_PETRONAS_Turun.md) | Analisis laporan kewangan FY2025 |
+
+---
+
 ## 📁 Folder PROPA
 
 Folder `PROPA/` mengandungi dokumen-dokumen sokongan dan bahan rujukan untuk projek:
